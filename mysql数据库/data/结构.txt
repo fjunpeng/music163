@@ -1,0 +1,24 @@
+用户列表	wy_user			uid  uname upwd	phone	email	avarar user_name  gender
+
+用户收藏 	wy_userToCollect	uTCId targetType	targetId	uid
+
+个人详细信息表 wy_user_PersonalDetails	uPId  headUrl  title   birthday  region  uid
+
+歌曲总汇 	wy_songList		sId	sName	sTitle	songUrl	  sTimeLong  spId  seId
+
+歌手		wy_songer		seId    seName  selfIntroduction  fansNumber	uid
+
+专辑		wy_special  		spId	  spIntroduction seId
+
+歌单		wy_songBigList		sBLId	CreatName	sBName	uid	sIdList
+
+评价单		wy_appraiseList		apId	targetType	targetId
+
+评价		wy_elaluates		elId	apId	eContent   uid
+
+回复评价单	wy_callBackEleluate  	cBEId	elId	uid 	eContent
+
+点赞		wy_likeList		likId	targetType	targetId	likeNumber
+
+点击次数表	wy_clickNumberList	cNLId	targetType	targetId	clickNumber		
+
